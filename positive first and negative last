@@ -1,0 +1,25 @@
+n=int(input())
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+
+x=0
+for i in range(n):
+    if l[i]>0:
+        t.append(l[i])
+for i in range(x,n):
+    if l[i]<0:
+        t.append(l[i])
+print(t)
+
+output:
+5
+1
+8
+-2
+5
+-7
+[1, 8, 5, -2, -7]
+
